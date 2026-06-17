@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+/* parte do header*/
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu{
+    width: 30%;
+    height: 35px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+.container {
+    background-color: blue; 
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barra_de_pesquisa{
+    width:  15%;
+    height: 35px;
+    margin-right: 4px;
+    background-color: aqua;
+}
+#negocios_{
+    font-size: 10px;
+}
+.perfil{
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: aqua;
+}
+
+.logo_linkedin{
+    display: flex;
+    margin-right: 5px;
+}
+
+.negocios{
+    width: 210px;
+    height: 35px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-right: 15px;
+    gap: 10px;
+    background-color: rgb(40, 90, 73);
+}
+
+
